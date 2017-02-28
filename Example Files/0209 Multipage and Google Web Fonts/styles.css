@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	color: red;
+	font-family: 'Pangolin', cursive;
+}
+
+.navigation {
+	
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.navigation li {
+	list-style: none;
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+
+.navigation .current {
+	font-weight: bold;
+}

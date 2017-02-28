@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Pangolin', cursive;
+}
+
+h1 {
+	color: red;
+}
+
+.header {
+	background: gray;
+}
+
+.content {
+	background: red;
+	width: 80%;
+	float: left;
+	padding: 20px;
+}
+
+.sidebar {
+	background: blue;
+	width: 20%;
+	float: left;
+}
+
+.footer {
+	background: yellow;
+	clear: both;
+}

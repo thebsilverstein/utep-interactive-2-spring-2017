@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+
+</head>
+
+<body>
+	
+	<!-- Header Start -->
+	<div class="header">
+		Header
+	</div>
+	<!-- Header End -->
+	
+	<!-- Content Start -->
+	<div class="content">
+		
+		<a href="utep.jpg" class="fancybox" rel="gallery" title="UTEP Logo #1">
+			<img src="utep.jpg" width="200" height="200">
+		</a>
+		
+		<a href="campus.jpg" class="fancybox" rel="gallery" title="UTEP Campus #1">
+			<img src="campus.jpg" width="200" height="200">
+		</a>
+		
+		<a href="utep.jpg" class="fancybox" rel="gallery" title="UTEP Logo #2">
+			<img src="utep.jpg" width="200" height="200">
+		</a>
+		
+		<a href="campus.jpg" class="fancybox" rel="gallery2" title="UTEP Campus #2">
+			<img src="campus.jpg" width="200" height="200">
+		</a>
+		
+	</div>
+	<!-- Content End -->
+	
+	<!-- Sidebar Start -->
+	<div class="sidebar">
+		Sidebar
+	</div>
+	<!-- Sidebar End -->
+	
+	<!-- Footer Start -->
+	<div class="footer">
+		Footer
+	</div>
+	<!-- Footer End -->
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+
+</body>
+</html>
