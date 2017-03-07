@@ -1,0 +1,18 @@
+1. Copy fancybox directory into your project folder.
+
+2. Add the following lines right before your closing </head> tag.
+
+<!-- Add jQuery and Fancybox -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+
+3. Add the following lines right before your closing </body> tag.
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+4. Add class="fancybox" to your link tags that link to your larger images.
