@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header {
+	padding: 30px 15px;
+}
+
+.pattern {
+	background: url(pattern.png);
+	height: 29px;
+}
+
+.slogan {
+	background: #DDDDDD;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 strong {
+	
+}
+
+.information {
+	background: #56C3CF;
+}
