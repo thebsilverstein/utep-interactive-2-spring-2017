@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #1e1e1e;
+}
+
+.header {
+	padding: 60px 30px;
+}
+
+.header .image {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.header .image img {
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width: 768px) {
+	.header {
+		height: 500px;
+	}
+	.header .image {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 992px) {
+	.header {
+		height: 700px;
+	}
+	.header .image {
+		max-width: 450px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 1200px) {
+	.header {
+		height: 950px;
+	}
+	.header .image {
+		max-width: 450px;
+		margin: 0 auto;
+		margin-top: 90px;
+	}
+}
+
+/*.animated {
+	animation-duration: 5s;
+	animation-fill-mode: both;
+	animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(-100%, -100%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+*/
+
+h1 {
+	color: #cccccc;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+h2 {
+	color: #94824d;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid #94824d;
+	padding: 10px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+p {
+	color: #cccccc;
+	text-align: center;
+	padding: 12px 0;
+}
+
+.location {
+	margin-bottom: 30px;
+	background: url(bg.png);
+}
+
+a {
+	color: #94824d;
+}
+
+a:hover {
+	color: #94824d;
+}

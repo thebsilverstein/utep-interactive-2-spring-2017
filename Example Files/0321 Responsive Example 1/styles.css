@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	color: blue;
+}
+
+@media (min-width: 700px) {
+	h1 {
+		color: green;
+		text-decoration: underline;
+	}
+}
+
+@media (min-width: 900px) {
+	h1 {
+		font-size: 60px;
+	}
+	
+	body {
+		background: gray;
+	}
+}
+
+.content {
+	background: red;
+}
+
+.sidebar {
+	background: yellow;
+}
+
+@media (min-width: 700px) {
+	.content {
+		float: left;
+		width: 70%;
+	}
+	
+	.sidebar {
+		float: left;
+		width: 30%;
+	}
+}
+
+@media (min-width: 900px) {
+	.content {
+		float: right;
+		width: 50%;
+	}
+	
+	.sidebar {
+		float: right;
+		width: 50%;
+	}
+}

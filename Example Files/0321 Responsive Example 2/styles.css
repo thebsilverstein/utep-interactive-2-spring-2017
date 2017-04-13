@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width: 768px) {
+	.image {
+		float: left;
+		width: 50%;
+	}
+}
+
+@media (min-width: 992px) {
+	.image {
+		float: left;
+		width: 33.33333%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.image {
+		float: left;
+		width: 16.66666%;
+	}
+}

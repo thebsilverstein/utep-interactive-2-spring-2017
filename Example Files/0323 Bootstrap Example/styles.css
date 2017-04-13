@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container-fluid {
+	max-width: 1200px;
+}
+
+.item p {
+	background: red;
+}
